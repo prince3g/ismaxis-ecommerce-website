@@ -1,0 +1,122 @@
+/*.inputs-box*/
+.inputs-box{
+    position: absolute;
+    width:450px;
+    background: #ffffff;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    -webkit-box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 10%);
+    border-radius: 3px;
+}
+@media screen and (max-width: 500px){
+    .inputs-box{
+        width: 90% !important;
+    }
+}
+.inputs-header{
+    width: 100%;
+    height: auto;
+    padding:10px 20px;
+    border-bottom:1px solid #f8f8f8;
+}
+.inputs-header h3{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    color: #393939;
+}
+.input-logo-container{
+    width: 100%;
+    height:auto;
+    padding:20px 0px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-logo-box{
+    height: auto;
+    border-radius:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-logo-box img{
+    max-width:180px;
+    height: auto;
+}
+.pw-strength{
+    width: 90%;
+    height: 2px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    display: none;
+}
+.pw-strength .pw-strength-loader{
+    display: block;
+    width: 0%;
+    height: 100%;
+    background: red;
+    border-radius: inherit;
+}
+.pw-strength .pw-strength-text{
+    font-size: 10px;
+    margin-top: -17px;
+    position: absolute;
+}
+/*form-container*/
+.form-container{
+    width: 100%;
+    height: auto;
+    padding:10px 30px;
+    margin-bottom: 20px;
+}
+.form-container .input{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    display: flex;
+}
+.form-container .input input{
+    width: 100%;
+    height: auto;
+    padding: 13px;
+    font-size: 14px;
+    border: none;
+    border: 1px solid #d2d2d2;
+    outline: none;
+    border-radius: 3px;
+    background: #ffffff;
+}
+.form-container .input input[type="submit"]{
+    background-image: linear-gradient(80deg,#0a7dd8,#21c8db);
+    border:none;
+    color: #ffffff;
+    /*text-transform: uppercase;*/
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.form-container .input input[type="submit"]:hover{
+    background-image: linear-gradient(80deg,#096abb,#21c8db);
+    transition: all 0.5s ease;
+}
+.inputs-bottom{
+    width: 100%;
+    height: auto;
+    padding:20px 20px;
+    background-color: #f8f8f8;
+}
+.inputs-bottom p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #393939;
+}
+.inputs-bottom p a{
+    color: #0c8bf6;
+}
